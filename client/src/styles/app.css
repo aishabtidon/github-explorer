@@ -1,0 +1,44 @@
+@import './theme.css';
+
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.header { display:flex; align-items:center; justify-content:space-between; margin-bottom: 20px; }
+.brand { font-size: 28px; font-weight: 800; letter-spacing:.3px; }
+.sub { color: var(--muted); }
+.row { display:flex; gap:12px; flex-wrap:wrap; }
+
+.card img.avatar { width: 64px; height: 64px; border-radius: 50%; }
+.repo-meta { color: var(--muted); font-size: 14px; }
+.list { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:16px; }
+/* Search bar styling */
+.searchbar {
+  display: flex;
+  gap: 10px;
+  margin: 24px auto 0;
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25) inset, 0 10px 30px rgba(0,0,0,0.25);
+  width: min(720px, 92vw);
+}
+.searchbar input {
+  flex: 1;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  color: #e9eef6;
+  padding: 0 12px;
+  outline: none;
+}
+.searchbar input::placeholder { color: #aab3c2; }
+.searchbar button {
+  height: 38px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #2ecc71;
+  color: #0b1b2b;
+  font-weight: 600;
+  cursor: pointer;
+}
+.searchbar button:hover { filter: brightness(1.05); }

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader component snapshot 1`] = `
+{
+  "component": "Loader",
+  "props": {
+    "aria-label": "spinner",
+    "role": "img",
+  },
+  "text": "Loading…",
+}
+`;
+
+exports[`Loader with custom text snapshot 1`] = `
+{
+  "component": "Loader",
+  "props": {
+    "aria-label": "spinner",
+    "role": "img",
+  },
+  "text": "Loading user…",
+}
+`;
