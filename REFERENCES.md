@@ -4,10 +4,11 @@
 
 AI assistance was used specifically for debugging and troubleshooting when the application crashed or encountered errors. Screenshots of console errors and terminal output were provided to ChatGPT to help identify and resolve issues.
 
-**Note**: The original ChatGPT conversation cannot be shared publicly due to technical limitations:
-- ChatGPT's shared links do not support conversations containing audio recordings from voice chats
+**Note**: The original ChatGPT conversation cannot be shared publicly due to technical limitations:(this will be proven in a screenshot pdf that is addes to this repo)
+- ChatGPT's shared links do not support conversations containing audio recordings from voice chats and media.
 - OpenAI's policies prevent sharing conversations with unsupported media types
 - This limitation is due to privacy and data handling policies
+- also i used that chat for other personal project i was doing therefore the data space of that conversation is too much to download which will be also proven in screenshot pdf that i will provide 
 
 ## Learning Resources and References that helped with first setup:
 
